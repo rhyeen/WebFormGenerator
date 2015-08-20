@@ -1,0 +1,13 @@
+rpg,name,type,target,targetNum,range,radius,radiusType,description
+dales,Nightvision,Sense,Self,NULL,NULL,100,Sphere,"Target can see into darkness within radius with no penalties."
+dales,"Tuned smell",Sense,Self,NULL,NULL,500,Sphere,"Target can perceive any scent within radius and has advantage on Perception checks regarding smell."
+dales,"Tuned vision",Sense,Self,NULL,NULL,200,Cone,"Target can see any object within radius, unless the object is covered or hidden.  The target has advantage on Perception checks regarding sight."
+dales,"Tuned hearing",Sense,Self,NULL,NULL,100,Sphere,"Target can perceive any sound within radius and has advantage on Perception checks regarding hearing."
+dales,"Sense creature",Sense,Self,NULL,NULL,50,Sphere,"Target can detect any creature within radius."
+dales,Deaf,Sense,Self,NULL,NULL,NULL,NULL,"Target is unable to hear."
+dales,Blind,Sense,Self,NULL,NULL,NULL,NULL,"Target is unable to see."
+dales,Parry,Defense,Self,NULL,5,NULL,NULL,"If target is wielding a melee weapon, he has +2 to dodge."
+dales,Climb,Movement,Self,NULL,NULL,NULL,NULL,"Target can travel any direction on vertical surfaces at regular speed."
+dales,Swim,Movement,Self,NULL,NULL,NULL,NULL,"Target can travel any direction through the liquid at regular speed."
+dales,Fly,Movement,Self,NULL,NULL,NULL,NULL,"Target can travel any direction through the air at regular speed.     "
+dales,"Heavy Strike",Action,Target,1,5,NULL,NULL,"Target can choose to attack with -5 AR and +10 DMG."

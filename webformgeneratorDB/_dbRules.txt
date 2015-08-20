@@ -1,0 +1,136 @@
+Table: ability
+Columns:
+rpg varchar(140) PK 
+name varchar(45) PK 
+type varchar(45) 
+target varchar(45) 
+targetNum tinyint(4) 
+range smallint(6) 
+radius smallint(6) 
+radiusType varchar(45) 
+description text
+
+Table: abilityType
+Columns:
+type varchar(45) PK
+
+Table: ammunition
+Columns:
+rpg varchar(140) PK 
+name varchar(140) PK 
+ammunitionType varchar(45) 
+quantityForValue varchar(45)
+
+Table: arcane
+Columns:
+rpg varchar(140) PK 
+name varchar(140) PK 
+rarity varchar(45)
+
+Table: armor
+Columns:
+rpg varchar(140) PK 
+name varchar(140) PK 
+armorModifier smallint(6) 
+dodgeModifier smallint(6) 
+magicResistModifier smallint(6)
+
+Table: consumable
+Columns:
+rpg varchar(140) PK 
+name varchar(140) PK 
+rarity varchar(45) 
+locality varchar(140) 
+hiddenProperty text
+
+Table: damageType
+Columns:
+damageType varchar(45) PK
+
+Table: item
+Columns:
+rpg varchar(140) PK 
+name varchar(140) PK 
+weight int(11) 
+value int(11) 
+primaryType varchar(45) 
+secondaryType varchar(45) 
+description text
+
+Table: itemType
+Columns:
+primaryType varchar(45) PK 
+secondaryType varchar(45) PK
+
+Table: language
+Columns:
+name varchar(45) PK 
+description text
+
+Table: property
+Columns:
+property varchar(45) PK 
+appliesTo varchar(45) PK
+
+Table: radiusType
+Columns:
+radiusType varchar(45) PK
+
+Table: rarity
+Columns:
+rarity varchar(45) PK 
+rank int(11)
+
+Table: rpg
+Columns:
+name varchar(140) PK
+
+Table: skill
+Columns:
+rpg varchar(140) 
+name varchar(140) PK 
+attribute enum('STR','DEX','INF','WIS') 
+type varchar(45) 
+description text
+
+Table: spell
+Columns:
+rpg varchar(140) PK 
+name varchar(140) PK 
+level tinyint(4) 
+manaCost tinyint(6) 
+castTime varchar(45) 
+components varchar(140) 
+duration varchar(45) 
+target varchar(45) 
+targetNum tinyint(4) 
+range tinyint(6) 
+radius tinyint(6) 
+radiusType varchar(45) 
+damage varchar(45) 
+damageType varchar(45) 
+secondaryDamage varchar(45) 
+secondaryDamageType varchar(45) 
+description text
+
+Table: target
+Columns:
+target varchar(45) PK
+
+Table: valuable
+Columns:
+rpg varchar(140) PK 
+name varchar(140) PK 
+rarity varchar(45)
+
+Table: weapon
+Columns:
+rpg varchar(140) PK 
+name varchar(140) PK 
+range smallint(6) 
+throw smallint(6) 
+damage varchar(45) 
+damageType varchar(45) 
+secondaryDamage varchar(45) 
+secondaryDamageType varchar(45) 
+property varchar(45)

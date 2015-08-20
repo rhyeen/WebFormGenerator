@@ -1,0 +1,6 @@
+rpg,name,rarity,locality,hiddenProperty
+dales,"Dry Weed",Common,"Hot and dry",NULL
+dales,"Potion of Healing",Common,NULL,"When drank, restores 20 health. 
+When inspected under light, the liquid glimmers and is fairly transparent. 
+When tasted, it has a sweet taste.
+"

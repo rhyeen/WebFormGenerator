@@ -1,0 +1,20 @@
+primaryType,secondaryType
+Ammunition,
+Arcane,
+Armor,Cloth
+Armor,Heavy
+Armor,Light
+Armor,Medium
+Armor,Other
+Armor,Shield
+Consumable,Ingredient
+Consumable,Potion
+Consumable,Scroll
+Gear,
+"Melee Weapon",Advanced
+"Melee Weapon",Basic
+Miscellaneous,
+"Ranged Weapon",Advanced
+"Ranged Weapon",Basic
+Tool,
+Valuable,

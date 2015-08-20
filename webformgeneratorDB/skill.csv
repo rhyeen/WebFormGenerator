@@ -1,0 +1,17 @@
+rpg,name,attribute,type,description
+dales,Arcana,INF,CORE,NULL
+dales,Athletics,STR,CORE,NULL
+dales,Balance,DEX,CORE,NULL
+dales,Deception,INF,CORE,NULL
+dales,Insight,WIS,CORE,NULL
+dales,Inspection,WIS,CORE,NULL
+dales,Intimidation,STR,CORE,NULL
+dales,Lore,WIS,CORE,NULL
+dales,Nature,INF,CORE,NULL
+dales,Perception,WIS,CORE,NULL
+dales,Persuasion,INF,CORE,NULL
+dales,"Sleight of hand",DEX,CORE,NULL
+dales,Stealth,DEX,CORE,NULL
+dales,Survival,WIS,CORE,NULL
+dales,Willpower,STR,CORE,NULL
+dales,Alchemy,INF,CORE,Test

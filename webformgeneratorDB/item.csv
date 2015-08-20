@@ -1,0 +1,7 @@
+rpg,name,weight,value,primaryType,secondaryType,description
+dales,Broom,2,NULL,Miscellaneous,NULL,Test
+dales,Arrow,NULL,1,Ammunition,NULL,"Standard Arrow"
+dales,Bolt,NULL,1,Ammunition,NULL,"Standard Bolt"
+dales,Crystal,NULL,5,Arcane,NULL,"Standard Crystal"
+dales,"Potion of Healing",NULL,50,Consumable,Potion,"A vial that contains deep red liquid."
+dales,"Dry Weed",NULL,1,Consumable,Ingredient,NULL

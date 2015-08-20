@@ -1,0 +1,2 @@
+rpg,name,level,manaCost,castTime,components,duration,target,targetNum,range,radius,radiusType,damage,damageType,secondaryDamage,secondaryDamageType,description
+dales,Forcewave,1,3,"1 action",NULL,NULL,AoE,NULL,0,15,Cone,1d12,Force,NULL,NULL,"Causes a strong force that knocks all inside AoE."
